@@ -1,3 +1,14 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 h1 {
-  color: aqua;
+}
+
+img {
+  width: 10rem;
+}
+
+#mainPhoto {
+  border-radius: 50%;
 }
