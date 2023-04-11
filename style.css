@@ -8,45 +8,80 @@ h1 {
   color: rgb(17, 220, 129);
   font-weight: 700;
   margin: 2rem 0.5rem;
+  font-size: 35px;
   text-align: center;
 }
 
 img {
   width: 10rem;
 }
-
-#mainPhoto {
-  border-radius: 50%;
-  padding-left: 1rem;
-}
 nav a {
   font-weight: 600;
   text-decoration: none;
   color: white;
   font-size: larger;
-  text-align: center;
   padding: 0.5rem;
-  float: right;
 }
 nav {
   background-color: rgba(85, 82, 82, 0.872);
   height: 60px;
+  display: flex;
+  justify-content: end;
 }
 #homeMain {
-  display: inline-flex;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-row-gap: 70px;
 }
 
+#mainPhoto {
+  border-radius: 50%;
+  grid-area: 2/2/3/5;
+  width: 17%;
+  text-align: center;
+}
 #homeMain p {
   padding-top: 3rem;
   padding-left: 1rem;
   font-size: medium;
+  grid-area: 2/3/3/3;
 }
 
 section {
   padding-left: 1rem;
 }
 
-section p {
-  width: 100rem;
-  margin-top: 2rem;
+#firstProject,
+#secondProject {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+#firstProject h2,
+#secondProject h2 {
+  grid-area: 1/3/2/4;
+}
+#firstProject img,
+#secondProject img {
+  grid-area: 2/2/3/3;
+}
+#firstProject a,
+#secondProject a {
+  grid-area: 4/2/5/3;
+}
+
+#firstProject p,
+#secondProject p {
+  grid-area: 2/3/3/4;
+}
+.aboutMe p {
+  width: 70%;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
