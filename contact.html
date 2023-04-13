@@ -22,7 +22,7 @@
     </nav>
     <h1 id="contactHeading">Contact Us</h1>
     <section id="contact">
-      <form id="form">
+      <form id="form" method="POST" action="#">
         <label for="firstName">First Name</label>
         <input type="text" id="firstName" name="firstName" />
         <label for="lastName">Last Name</label>
@@ -31,7 +31,9 @@
         <input type="email" id="email" />
         <label for="phone">Phone</label>
         <input type="tel" id="phone" name="phone" />
-        <input type="submit" />
+        <label for="message">Message</label>
+        <input type="text" id="message" name="message" />
+        <input type="submit" value="Submit" />
       </form>
       <img
         id="techPic"

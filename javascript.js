@@ -1,4 +1,3 @@
-x
 const form = document.querySelector('#form')
 const submitButton = document.querySelector('#submit')
 const scriptURL = 'https://httpbin.org/post'
@@ -17,4 +16,4 @@ form.addEventListener('submit', e => {
       submitButton.disabled = false
     })
 })
-console.log('Hello World')
+// console.log('Hello World')
