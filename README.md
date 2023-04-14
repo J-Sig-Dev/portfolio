@@ -15,10 +15,9 @@ A website for my personal projects
 3. HTML 
 4. Google Fonts
 
-## Installation
+## Site Link
 
-Clone project to local, open in code editor and preview with live server -or- <br>
-Directly open pages
+https://j-sig-dev.github.io/portfolio/
 
 ## Credits
 
